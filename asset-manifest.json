@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Movie-Project/static/css/main.c5b80cee.css",
+    "main.js": "/Movie-Project/static/js/main.dd7bdcfb.js",
+    "static/js/787.a2274fbc.chunk.js": "/Movie-Project/static/js/787.a2274fbc.chunk.js",
+    "static/media/mobile.19598b4d.gif": "/Movie-Project/static/media/mobile.19598b4d.19598b4d1f977bf7f567.gif",
+    "static/media/tv2.f1a462fb.gif": "/Movie-Project/static/media/tv2.f1a462fb.f1a462fba6dcce032072.gif",
+    "static/media/registr.97ecf839.png": "/Movie-Project/static/media/registr.97ecf839.97ecf839574b3572d1ce.png",
+    "static/media/cartoon.7e9c0c2f.png": "/Movie-Project/static/media/cartoon.7e9c0c2f.7e9c0c2fccea936cef07.png",
+    "static/media/PngItem_2550683.ec7f64bd.png": "/Movie-Project/static/media/PngItem_2550683.ec7f64bd.ec7f64bd810d555413ab.png",
+    "static/media/672-6722829_no-result-found.png": "/Movie-Project/static/media/672-6722829_no-result-found.96bf43bd451a1ec13f40.png",
+    "index.html": "/Movie-Project/index.html",
+    "main.c5b80cee.css.map": "/Movie-Project/static/css/main.c5b80cee.css.map",
+    "main.dd7bdcfb.js.map": "/Movie-Project/static/js/main.dd7bdcfb.js.map",
+    "787.a2274fbc.chunk.js.map": "/Movie-Project/static/js/787.a2274fbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b80cee.css",
+    "static/js/main.dd7bdcfb.js"
+  ]
+}
