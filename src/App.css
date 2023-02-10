@@ -314,7 +314,7 @@ a {
 
 .errorPage {
   width: 100%;
-  height: calc(100vh - 135px);
+  height: calc(100vh - 180px);
   background-image: url(./image/PngItem_2550683.ec7f64bd.png);
 }
 .poster:hover{
