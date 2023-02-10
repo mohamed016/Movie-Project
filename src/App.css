@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.elements {
+  width: 80%;
+  margin-top: 60px !important;
+  margin: auto;
+}
+
+
+
+h1 {
+  margin: 20px 0px
+}
+
+img {
+  border-radius: 10%
+}
+
+.header::after {
+  content: "";
+  background-color: #a8a8a83d;
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+}
+
+.star {
+  color: rgb(215, 215, 66);
+}
+
+.header::before {
+  content: "";
+  background-color: #a8a8a83d;
+  display: inline-block;
+  width: 25%;
+  height: 3px;
+}
+
+.movieDetails {
+  width: 100%;
+  /* height: 90vh !important; */
+}
+
+h4, .movieDetails h3 {
+  font-weight: bold;
+}
+
+.imgCon {
+  width: 80%;
+  height: 50vh !important;
+  margin: auto;
+  /* background-color:yellow; */
+  position: relative;
+  padding: 10px;
+  overflow: hidden !important;
+}
+
+.imgCon img {
+  border-radius: 0;
+}
+
+.imgCon::after, .imgCon::before {
+  content: "";
+  width: 80px !important;
+  height: 80px !important;
+  position: absolute;
+}
+
+.imgCon::after {
+  top: 0;
+  right: 0;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+
+}
+
+.imgCon::before {
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
+}
+
+
+
+.containerCompanyLogo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.companyLogo {
+  width: 30% !important;
+  /* background-color:red; */
+  margin: 5px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+  /* background-color:rebeccapurple; */
+  overflow: hidden;
+}
+
+.nameCompany {
+  width: 100%;
+  margin-top: 10px;
+  /* background-color:rebeccapurple */
+}
+
+
+.imgContainer img {
+  max-width: 150%;
+  height: 100%;
+}
+
+tr td {
+  color: rgb(197, 192, 192) !important;
+}
+
+table {
+  border-color: #4890F9 !important;
+  margin: 30px 0px
+}
+
+.overviewDetails {
+  margin: 80px 0
+}
+
+.slider {
+  text-align: center;
+}
+
+.imgSlider {
+  height: 200px;
+}
+
+.more {
+  /* background-color: #4890F9; */
+  border: 2px solid red;
+  border-radius: 10px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 40%; */
+}
+
+.person {
+  height: 300px;
+}
+
+.more .fa-right-to-bracket {
+  font-size: 30px !important;
+  transition-duration: 1s;
+
+  color: red;
+}
+
+.more:hover .fa-right-to-bracket {
+  font-size: 60px !important;
+}
+
+table {
+  border-color: red !important;
+  ;
+}
+
+.navbar-brand {
+  color: red;
+  font-size: 30PX;
+  font-weight: bold;
+}
+
+.default {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.pageLink {
+  color: red !important;
+  cursor: pointer;
+
+}
+
+.pageLink:focus {
+  box-shadow: 2px 2px red !important;
+}
+
+button {
+  border-color: red !important;
+  color: red !important;
+}
+
+button:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: red;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.452);
+}
+
+.containerLogin {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.login {
+  width: 45%;
+}
+
+.loginImg {
+  width: 45%;
+}
+
+.loginImg img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  width: 80%;
+  height: 5px;
+  border: none !important;
+  margin: 50px auto !important;
+
+  background-color: rgb(255, 0, 0);
+}
+
+.lastSection {
+  justify-content: space-between;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftContent img {
+  width: 100%;
+}
+
+.leftContent {
+  text-align: center;
+  /* background-color: #4890F9; */
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px
+}
+
+.social {
+  width: 15%;
+  padding: 10px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50%;
+  color: red !important;
+  transition: color 0.5s;
+  margin-bottom: 10px;
+}
+
+.social:hover {
+  color: white !important;
+  background-color: red !important;
+}
+
+.imgTwoContainer img {
+  height: 400px;
+  width: 250px;
+}
+
+.navBarr {
+  z-index: 9999999999999999999999999999999;
+  position: sticky;
+  top: 0px;
+  transition: background-color 0.5s linear !important;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 0.5s;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
+  color: white;
+}
+
+.btnLogOut {
+  cursor: pointer;
+}
+
+.errorPage {
+  width: 100%;
+  height: calc(100vh - 135px);
+  background-image: url(./image/PngItem_2550683.ec7f64bd.png);
+}
+.poster:hover{
+  transform: scale(1.5);
+}
