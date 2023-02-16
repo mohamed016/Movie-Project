@@ -61,7 +61,7 @@ function App() {
       <NavBar userData={userData} logOut={logOut} />
       <div className="elements">
         <Routes>
-          <Route path="/" element={<DefaultPage />} />
+          <Route path="*" element={<DefaultPage />} />
           <Route path="defaultPage" element={<DefaultPage />} />
           <Route path="login" element={<Login getUserData={getUserData} />} />
           <Route path="register" element={<Register />} />
@@ -74,7 +74,7 @@ function App() {
           <Route path="tvDetails/:id" element={<ProtectedRoute><TvDetails /></ProtectedRoute>} />
           <Route path="similarMovie/:id" element={<ProtectedRoute><SimilarMovie /></ProtectedRoute>} ></Route>
           <Route path="similarTv/:id" element={<ProtectedRoute><SimilarTv /></ProtectedRoute>} ></Route>
-          <Route path="*" element={<Error />} />
+          <Route path="/" element={<Error />} />
         </Routes>
       </div>
 
